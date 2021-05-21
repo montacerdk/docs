@@ -100,3 +100,15 @@ Now, we can commit and push changes on both `first-submodule` and main repositor
 ```
 git push --recurse-submodules=on-demand
 ```
+
+### Fetch all changes
+
+```
+git submodule update --remote
+```
+
+### Pull all changes
+
+```
+git submodule update --init --recursive
+```
